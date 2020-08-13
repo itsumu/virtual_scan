@@ -4,7 +4,7 @@ This repo aims to render depth images with the help of open source 3D creation t
 # Usage
 ## Dependencies
 - Install [Blender](https://blender.org/download) v2.8x.
-- Install all the dependencies listed in traj2pcd.py. This step can be skip if there is no need for point clouds.
+- Install all the dependencies listed in traj2pcd.py. This step can be skipped if there is no need for point clouds.
 ## Depth images capturing
 - Modify the intrinsics file according to your preference.
 - `python parallel_scan.py --dataset_dir [dataset directory] --intrinsics [intrinsics file] --output_dir [images directory]  --num_process [paralleled process count]` Note that default camera trajectory consists of six views, staring at the model omnidirectionally, and covers the whole shape in most cases.
