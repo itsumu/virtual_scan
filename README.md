@@ -1,5 +1,5 @@
 # Introduction
-This repo aims to render depth images with the help of open source 3D creation tool [Blender](https://www.blender.org/), and then generate point clouds from them. Codes are polished and parallelization is imposed to boost up scanning, which is the main difference between this repo and [Blensor](https://www.blensor.org/). The code are modified from https://github.com/wentaoyuan/it-net. The main difference is the Blender version and the dataset to be scanned. This scripts is compatible with v2.8x and there is no need to install Blender OFF Addon, since Blender has it integrated but not documented.
+This repo aims to render depth images with the help of open source 3D creation tool [Blender](https://www.blender.org/), and then generate point clouds from them. Codes are polished and parallelization is imposed to boost up scanning, which another Blender-based virtual scan project, [Blensor](https://www.blensor.org/), lacks. Codes are modified from https://github.com/wentaoyuan/it-net. The main difference is the supported Blender version and the dataset to be scanned. This script is compatible with v2.8x and there is no need to install Blender OFF Addon, since Blender has it integrated but not documented.
 
 # Usage
 ## Dependencies
